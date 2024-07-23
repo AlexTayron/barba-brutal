@@ -8,7 +8,7 @@ export default function useLocalStorage() {
     }, [])
 
     const remove = useCallback((chave: string) => {
-        window?.localStorage?.remove(chave)
+        window?.localStorage?.removeItem(chave)
     }, [])
 
     const set = useCallback((chave: string, valor: any) => {
