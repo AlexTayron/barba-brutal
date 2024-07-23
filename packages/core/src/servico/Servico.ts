@@ -3,6 +3,6 @@ export default interface Servico {
     nome: string
     descricao: string
     preco: number
-    qtdSlots: number
+    qtdeSlots: number
     imagemURL: string
 }

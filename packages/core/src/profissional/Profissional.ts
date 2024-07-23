@@ -1,5 +1,3 @@
-import { Agendamento } from '../agendamento'
-
 export default interface Profissional {
     id: number
     nome: string
